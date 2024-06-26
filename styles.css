@@ -393,84 +393,85 @@ body.modal-open .content-to-blur {
 }
 /* Reposition the controls slightly */
 .carousel-control {
-    background: white;
-    border: 1px solid #E8E8E8;
-    margin-top: 0px;
-    left: -40px;
+    background: white !important;
+    border: 1px solid #E8E8E8 !important;
+    margin-top: 0px !important;
+    left: -40px !important;
 }
 .carousel-control.right {
-    margin-top: 0px;
-    right: -40px;
+    margin-top: 0px !important;
+    right: -40px !important;
+    left: auto !important;
 }
 /* Changes the position of the indicators */
 .carousel-indicators {
-    z-index: 0;
-    align-items: center;
-    top: auto;
-    bottom: 0px;
+    z-index: 0 !important;
+    align-items: center !important;
+    top: auto !important;
+    bottom: 0px !important;
 }
 /* Changes the colour of the indicators */
 .carousel-indicators li {
-    background: #C2C2C2;
+    background: #C2C2C2 !important;
 }
 .carousel-indicators .active {
-    width: 18.76px;
-    height: 18.76px;
-    border-radius: 20px;
-    background: white;
-    border: 6px solid #EF7F1A;
+    width: 18.76px !important;
+    height: 18.76px !important;
+    border-radius: 20px !important;
+    background: white !important;
+    border: 6px solid #EF7F1A !important;
 }
 
 .well{
     background: none !important;
-    background-color: rgba(255, 255, 255, 255);
+    background-color: rgba(255, 255, 255, 255) !important;
     border: none !important;
     -webkit-box-shadow: none !important;
 }
 
 .thumbnail{
-    text-decoration: none;
-    border-radius: 10px;
-    padding: 0;
+    text-decoration: none !important;
+    border-radius: 10px !important;
+    padding: 0 !important;
 }
 
 .span4 .thumbnail:focus{
-    text-decoration: none;
+    text-decoration: none !important;
     border-color: black !important;
 }
 
 .span4 .thumbnail:hover{
-    text-decoration: none;
+    text-decoration: none !important;
     border-color: black !important;
 }
 
 .span3 .thumbnail:focus{
-    text-decoration: none;
+    text-decoration: none !important;
     border-color: black !important;
 }
 
 .span3 .thumbnail:hover{
-    text-decoration: none;
+    text-decoration: none !important;
     border-color: black !important;
 }
 
 .thumbnail h4{
-    color: #151515;
-    font-family: 'Exo 2', 'serif';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 20px;
-    line-height: 24px;
+    color: #151515 !important;
+    font-family: 'Exo 2', 'serif' !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 20px !important;
+    line-height: 24px !important;
 }
 
 .thumbnail p{
-    font-family: 'Exo 2', 'serif';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 125%;
+    font-family: 'Exo 2', 'serif' !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 16px !important;
+    line-height: 125% !important;
 
-    color: #666666;
+    color: #666666 !important;
 }
 
 .results-title{
