@@ -422,9 +422,10 @@ body.modal-open .content-to-blur {
 }
 
 .well{
-    background: none;
-    border: none;
-    -webkit-box-shadow: none;
+    background: none !important;
+    background-color: rgba(255, 255, 255, 255);
+    border: none !important;
+    -webkit-box-shadow: none !important;
 }
 
 .thumbnail{
